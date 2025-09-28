@@ -15,7 +15,7 @@ export function ProjectsSection() {
       image: "/mobile-travel-app-interface.jpg",
       technologies: ["React Native", "Node.js", "MongoDB"],
       demoUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/moustaphandiaye22/cargo-track.git",
       category: "Mobile",
     },
     {
@@ -34,7 +34,7 @@ export function ProjectsSection() {
       image: "/delivery-app-interface.png",
       technologies: ["Vue.js", "Laravel", "MySQL"],
       demoUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/moustaphandiaye22/projet_shopping_cart.git",
       category: "E-commerce",
     },
     {
@@ -53,7 +53,7 @@ export function ProjectsSection() {
       image: "/ecommerce-website-interface.png",
       technologies: ["Next.js", "Stripe", "Prisma"],
       demoUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/moustaphandiaye22/projet_shopping_cart.git",
       category: "E-commerce",
     },
     {
@@ -62,7 +62,7 @@ export function ProjectsSection() {
       image: "/business-management-app-interface.jpg",
       technologies: ["React", "Node.js", "MongoDB"],
       demoUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/moustaphandiaye22/projet_max_it.git",
       category: "Business",
     },
   ]
@@ -148,8 +148,10 @@ export function ProjectsSection() {
           viewport={{ once: true }}
           className="text-center mt-8"
         >
-          <Button size="lg" variant="outline">
-            Voir plus de projets
+          <Button size="lg" variant="outline" asChild>
+            <a href="https://github.com/moustaphandiaye22" target="_blank" rel="noopener noreferrer">
+              Voir plus de projets
+            </a>
           </Button>
         </motion.div>
       </div>
